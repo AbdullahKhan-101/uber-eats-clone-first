@@ -7,7 +7,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const SearchBar = () => {
   return (
-    <View style={{marginTop: 15, flexDirection: 'row'}}>
+    <View style={{marginTop: 8, flexDirection: 'row'}}>
       <GooglePlacesAutocomplete
         placeholder="Search"
         styles={{
@@ -15,14 +15,14 @@ const SearchBar = () => {
             backgroundColor: '#eeee',
             borderRadius: 20,
             fontWeight: '700',
-            marginTop: 7,
+            marginTop: 3,
           },
           textInputContainer: {
             backgroundColor: '#eeee',
             borderRadius: 50,
             flexDirection: 'row',
             alignItems: 'center',
-            marginRight: 10,
+            marginRight: 1,
           },
         }}
         renderLeftButton={() => (

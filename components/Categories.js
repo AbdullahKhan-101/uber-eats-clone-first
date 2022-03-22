@@ -38,7 +38,7 @@ const Categories = () => {
       style={{
         marginTop: 5,
         backgroundColor: '#fff',
-        paddingVertical: 4,
+        paddingVertical: 5,
         paddingLeft: 10,
       }}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
